@@ -2,7 +2,7 @@
 Caliper configuration of the feasibility project example is provided for the community
 
 1. Ubuntu and WSL2 is used under Windows. Mac and Linux (Ubuntu/Debian based distro) is also supported.
-2. It is assumed fabric-samples is downloaded https://github.com/hyperledger/fabric-samples. If needed, follow the instructions at https://hyperledger-fabric.readthedocs.io/en/latest/install.html
+2. It is assumed fabric-samples is downloaded https://github.com/hyperledger/fabric-samples If needed, follow the instructions at https://hyperledger-fabric.readthedocs.io/en/latest/install.html
 3. Download the Caliper configuration files provided here. Directory caliper-workspace should be at the same level as the fabric-samples.
 4. Navigate to fabric-samples/test-network
 5. Start the network and install asset-transfer basic chaincode with the following commands.    
@@ -17,3 +17,4 @@ npx caliper bind --caliper-bind-sut fabric:2.2
 npx caliper launch manager --caliper-workspace ./ --caliper-networkconfig networks/networkconfig.yaml --caliper-benchconfig benchmarks/benchconfig.yaml --caliper-flow-only-test
 10. A report is printed and a report.html file produced in caliper-workspace directory.
 11. Modify benchmark configuration file as needed in order to repeat the test.
+12. For more information, check out the Caliper documentation https://hyperledger.github.io/caliper/v0.5.0/getting-started/
