@@ -2,7 +2,7 @@
 Caliper configuration of the feasibility project example is provided for the community
 
 1. Ubuntu and WSL2 is used under Windows. Mac and Linux (Ubuntu/Debian based distro) is also supported.
-2. It is assumed fabric-samples is downloaded https://github.com/hyperledger/fabric-samples If needed, follow the instructions at https://hyperledger-fabric.readthedocs.io/en/latest/install.html
+2. It is assumed fabric-samples is downloaded https://github.com/hyperledger/fabric-samples If needed, follow the instructions at https://hyperledger-fabric.readthedocs.io/en/latest/install.html Docker Desktop is also installed.
 3. Download the Caliper configuration files provided here. Directory caliper-workspace should be at the same level as the fabric-samples.
 4. Navigate to fabric-samples/test-network
 5. Start the network and install asset-transfer basic chaincode with the following commands.    
