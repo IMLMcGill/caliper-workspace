@@ -16,5 +16,5 @@ npx caliper bind --caliper-bind-sut fabric:2.2
 9. Run a test with the following command. Network and benchmark configuration file names are provided. Modify benchmark configuration file as needed.    
 npx caliper launch manager --caliper-workspace ./ --caliper-networkconfig networks/networkconfig.yaml --caliper-benchconfig benchmarks/benchconfig.yaml --caliper-flow-only-test
 10. A report is printed and a report.html file produced in caliper-workspace directory.
-11. Modify benchmark configuration file as needed in order to repeat the test.
+11. Modify benchmark configuration file as needed in order to repeat the test. Change workload query.js to invoke.js for a test creating blocks.
 12. For more information, check out the Caliper documentation https://hyperledger.github.io/caliper/v0.5.0/getting-started/
